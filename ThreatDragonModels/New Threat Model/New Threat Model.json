@@ -833,8 +833,8 @@
                 "text": "Sitio web biblioteca"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -931,12 +931,41 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "f6ed09bb-c8a9-4919-a807-bf062c839ae7",
+                  "title": "Denegación de servicios",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service / Denegación de servicio",
+                  "description": "Un atacante podría denegar el acceso a usuarios válidos,\nhaciendo que el servidor web no esté disponible o sea\ninutilizable temporalmente por medio del envío de\nmúltiples peticiones simultaneas.",
+                  "mitigation": "Se utiliza un balanceo de cargas en el servidor web. Se monitorean las direcciones IP de los clientes y al encontrar un posible ataque, se bloquea el acceso. Se considera contratar un servicio de VPN para ocultar la dirección IP pública a los clientes.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": "14"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1087,6 +1116,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1170,7 +1200,6 @@
               ]
             },
             "id": "1c701a65-5957-4a9a-b081-1757973864fc",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Web Application Config",
@@ -1211,6 +1240,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1294,7 +1324,6 @@
               ]
             },
             "id": "1b957cc6-33e0-430c-a4b6-c6b54aa80168",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Páginas web en disco\n",
@@ -1317,6 +1346,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "Guillermo Vera",
-    "threatTop": 3
+    "threatTop": 4
   }
 }

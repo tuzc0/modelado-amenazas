@@ -271,7 +271,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Web Response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -287,7 +287,7 @@
               ]
             },
             "labels": [
-              "Flujo de datos"
+              "Web Response"
             ],
             "id": "4ce88dd1-c299-4749-8775-4cd32a1259a9",
             "source": {
@@ -325,7 +325,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Web Response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -341,7 +341,7 @@
               ]
             },
             "labels": [
-              "Flujo de datos"
+              "Web Response"
             ],
             "id": "2dee5e46-03be-4049-bd53-c5709a987b8d",
             "source": {
@@ -379,7 +379,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Web Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -393,7 +393,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              "Web Request"
             ],
             "id": "a436ad58-ab2c-4721-b866-666699019779",
             "source": {
@@ -435,7 +435,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Flujo de datos",
+              "name": "Web Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -449,7 +449,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Flujo de datos"
+              "Web Request"
             ],
             "id": "4e4546e4-5db5-44db-a3ab-3069ab971e9a",
             "source": {
@@ -475,7 +475,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Usuario/Web\nServer limite\n",
+              "name": "Usuario/Web\nServer límite\n",
               "description": "limites del servidor\n",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -489,7 +489,7 @@
               ]
             },
             "labels": [
-              "Usuario/Web\nServe"
+              "Usuario/Web\nServer límite\n"
             ],
             "id": "9d743bed-3ca4-467a-b463-ed8f908ee351",
             "source": {

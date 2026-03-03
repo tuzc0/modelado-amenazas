@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -2770,
-              "y": -3580
+              "x": -2810,
+              "y": -3600
             },
             "size": {
               "width": 112.5,
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuarios ",
@@ -136,8 +136,8 @@
           },
           {
             "position": {
-              "x": -2531.25,
-              "y": -3580
+              "x": -2480,
+              "y": -3590
             },
             "size": {
               "width": 112.5,
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "15c8fa78-ff67-4652-8725-8a64a831dfd7",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Bibliotecario",
@@ -250,57 +250,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Usuario/Web\nServer limite\n",
-              "description": "limites del servidor\n",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [
-                "75da0816-3652-41c0-97b0-662b2cea57ac"
-              ],
-              "containedElements": [
-                "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
-                "15c8fa78-ff67-4652-8725-8a64a831dfd7"
-              ]
-            },
-            "labels": [
-              "Usuario/Web\nServe"
-            ],
-            "id": "9d743bed-3ca4-467a-b463-ed8f908ee351",
-            "source": {
-              "x": -2880,
-              "y": -3600
-            },
-            "target": {
-              "x": -2300,
-              "y": -3600
-            },
-            "vertices": [
-              {
-                "x": -2830,
-                "y": -3470
-              },
-              {
-                "x": -2590,
-                "y": -3450
-              },
-              {
-                "x": -2440,
-                "y": -3450
-              },
-              {
-                "x": -2320,
-                "y": -3480
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -333,28 +282,26 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "9d743bed-3ca4-467a-b463-ed8f908ee351"
+              ]
             },
             "labels": [
               "Flujo de datos"
             ],
-            "id": "517683c6-cc89-4c0a-93a8-cef5dad7db3b",
+            "id": "4ce88dd1-c299-4749-8775-4cd32a1259a9",
             "source": {
-              "x": -2720,
-              "y": -3510
+              "x": -2650,
+              "y": -3340
             },
             "target": {
-              "cell": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
-              "port": "d213f822-81af-4288-9726-b33bd89a94c3"
+              "cell": "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
+              "port": "c1067efe-d293-4064-9f3b-e05e5a228eff"
             },
             "vertices": [
               {
-                "x": -2700,
-                "y": -3420
-              },
-              {
-                "x": -2580,
-                "y": -3370
+                "x": -2754,
+                "y": -3390
               }
             ]
           },
@@ -396,38 +343,186 @@
             "labels": [
               "Flujo de datos"
             ],
-            "id": "75da0816-3652-41c0-97b0-662b2cea57ac",
+            "id": "2dee5e46-03be-4049-bd53-c5709a987b8d",
             "source": {
-              "cell": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
-              "port": "fb8f1cfa-6a86-4797-82e8-015558f2ced4"
+              "x": -2530,
+              "y": -3390
             },
             "target": {
-              "cell": "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
-              "port": "94af444c-ef53-4f7a-b210-099ff555de00"
+              "cell": "15c8fa78-ff67-4652-8725-8a64a831dfd7",
+              "port": "c1067efe-d293-4064-9f3b-e05e5a228eff"
+            },
+            "vertices": [
+              {
+                "x": -2500,
+                "y": -3470
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "a436ad58-ab2c-4721-b866-666699019779",
+            "source": {
+              "x": -2380,
+              "y": -3530
+            },
+            "target": {
+              "x": -2510,
+              "y": -3360
+            },
+            "vertices": [
+              {
+                "x": -2380,
+                "y": -3420
+              },
+              {
+                "x": -2430,
+                "y": -3360
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "4e4546e4-5db5-44db-a3ab-3069ab971e9a",
+            "source": {
+              "x": -2730,
+              "y": -3540
+            },
+            "target": {
+              "x": -2630,
+              "y": -3380
             },
             "vertices": [
               {
                 "x": -2670,
-                "y": -3220
-              },
+                "y": -3460
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario/Web\nServer limite\n",
+              "description": "limites del servidor\n",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "4ce88dd1-c299-4749-8775-4cd32a1259a9",
+                "2dee5e46-03be-4049-bd53-c5709a987b8d"
+              ],
+              "containedElements": [
+                "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
+                "15c8fa78-ff67-4652-8725-8a64a831dfd7"
+              ]
+            },
+            "labels": [
+              "Usuario/Web\nServe"
+            ],
+            "id": "9d743bed-3ca4-467a-b463-ed8f908ee351",
+            "source": {
+              "x": -2850,
+              "y": -3600
+            },
+            "target": {
+              "x": -2300,
+              "y": -3590
+            },
+            "vertices": [
               {
-                "x": -2720,
-                "y": -3250
+                "x": -2890,
+                "y": -3580
               },
               {
                 "x": -2820,
-                "y": -3350
+                "y": -3510
               },
               {
-                "x": -2820,
-                "y": -3490
+                "x": -2360,
+                "y": -3510
+              },
+              {
+                "x": -2270,
+                "y": -3570
               }
             ]
           },
           {
             "position": {
-              "x": -2628.75,
-              "y": -3280
+              "x": -2680,
+              "y": -3400
             },
             "size": {
               "width": 210,
@@ -445,6 +540,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -528,7 +624,6 @@
               ]
             },
             "id": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Sitio web biblioteca",

@@ -1,0 +1,16 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Claudio Josué Trujillo Zepeda",
+    "description": "El sitio web de la biblioteca universitaria es la primera implementación de un\nsitio web para brindar servicios en línea a los bibliotecarios y usuarios de la biblioteca\n(estudiantes y personal universitario). Como esta es la primera implementación del sitio\nweb, la funcionalidad será limitada. Serán tres usuarios de la aplicación:\n1. Estudiantes\n2. Personal\n3. Bibliotecarios\nEl personal y los estudiantes podrán iniciar sesión y buscar libros, y los miembros del\npersonal podrán solicitar libros. Los bibliotecarios podrán iniciar sesión, agregar libros,\nagregar usuarios y buscar libros.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "Guillermo Vera",
+    "threatTop": 0
+  }
+}

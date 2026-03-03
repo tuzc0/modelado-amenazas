@@ -16,7 +16,535 @@
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": -2770,
+              "y": -3580
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Usuarios "
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "649a4b35-1157-4221-9668-08877bdba5f9"
+                },
+                {
+                  "group": "right",
+                  "id": "50df1483-aab0-410f-ac39-88ef48f41ec1"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c1067efe-d293-4064-9f3b-e05e5a228eff"
+                },
+                {
+                  "group": "left",
+                  "id": "94af444c-ef53-4f7a-b210-099ff555de00"
+                }
+              ]
+            },
+            "id": "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Usuarios ",
+              "description": "Personas externas a la institución que usaran el sistema. ",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -2531.25,
+              "y": -3580
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Bibliotecario"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "649a4b35-1157-4221-9668-08877bdba5f9"
+                },
+                {
+                  "group": "right",
+                  "id": "50df1483-aab0-410f-ac39-88ef48f41ec1"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c1067efe-d293-4064-9f3b-e05e5a228eff"
+                },
+                {
+                  "group": "left",
+                  "id": "94af444c-ef53-4f7a-b210-099ff555de00"
+                }
+              ]
+            },
+            "id": "15c8fa78-ff67-4652-8725-8a64a831dfd7",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Bibliotecario",
+              "description": "Encargado de la institución que utilizara el sistema.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario/Web\nServer limite\n",
+              "description": "limites del servidor\n",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "75da0816-3652-41c0-97b0-662b2cea57ac"
+              ],
+              "containedElements": [
+                "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
+                "15c8fa78-ff67-4652-8725-8a64a831dfd7"
+              ]
+            },
+            "labels": [
+              "Usuario/Web\nServe"
+            ],
+            "id": "9d743bed-3ca4-467a-b463-ed8f908ee351",
+            "source": {
+              "x": -2880,
+              "y": -3600
+            },
+            "target": {
+              "x": -2300,
+              "y": -3600
+            },
+            "vertices": [
+              {
+                "x": -2830,
+                "y": -3470
+              },
+              {
+                "x": -2590,
+                "y": -3450
+              },
+              {
+                "x": -2440,
+                "y": -3450
+              },
+              {
+                "x": -2320,
+                "y": -3480
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "517683c6-cc89-4c0a-93a8-cef5dad7db3b",
+            "source": {
+              "x": -2720,
+              "y": -3510
+            },
+            "target": {
+              "cell": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
+              "port": "d213f822-81af-4288-9726-b33bd89a94c3"
+            },
+            "vertices": [
+              {
+                "x": -2700,
+                "y": -3420
+              },
+              {
+                "x": -2580,
+                "y": -3370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flujo de datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "9d743bed-3ca4-467a-b463-ed8f908ee351"
+              ]
+            },
+            "labels": [
+              "Flujo de datos"
+            ],
+            "id": "75da0816-3652-41c0-97b0-662b2cea57ac",
+            "source": {
+              "cell": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
+              "port": "fb8f1cfa-6a86-4797-82e8-015558f2ced4"
+            },
+            "target": {
+              "cell": "280f17cd-bca5-438b-91dd-b8ce70ce2d79",
+              "port": "94af444c-ef53-4f7a-b210-099ff555de00"
+            },
+            "vertices": [
+              {
+                "x": -2670,
+                "y": -3220
+              },
+              {
+                "x": -2720,
+                "y": -3250
+              },
+              {
+                "x": -2820,
+                "y": -3350
+              },
+              {
+                "x": -2820,
+                "y": -3490
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": -2628.75,
+              "y": -3280
+            },
+            "size": {
+              "width": 210,
+              "height": 160
+            },
+            "attrs": {
+              "text": {
+                "text": "Sitio web biblioteca"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d213f822-81af-4288-9726-b33bd89a94c3"
+                },
+                {
+                  "group": "right",
+                  "id": "063429c9-cdb0-4a02-a16b-9573bdf67c3c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8f4ecfbe-4bd4-4bc5-935b-adb1576a5730"
+                },
+                {
+                  "group": "left",
+                  "id": "fb8f1cfa-6a86-4797-82e8-015558f2ced4"
+                }
+              ]
+            },
+            "id": "ed86d101-d0b4-41f8-895c-22292e3fbe4e",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sitio web biblioteca",
+              "description": "Sistema desarrollado para brindar servicios en linea.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          }
+        ],
         "description": "Diagrama de flujo de datos general del sistema bibliotecario"
       }
     ],

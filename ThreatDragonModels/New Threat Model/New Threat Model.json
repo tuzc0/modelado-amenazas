@@ -1530,9 +1530,19 @@
           }
         ],
         "description": "Diagrama de flujo de datos general del sistema bibliotecario"
+      },
+      {
+        "id": 4,
+        "title": "DFD para el sitio web de la biblioteca universitaria",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "Diagrama de flujo de datos de inicio de sesión del usuario para el sitio web de la biblioteca universitaria"
       }
     ],
-    "diagramTop": 4,
+    "diagramTop": 5,
     "reviewer": "Guillermo Vera",
     "threatTop": 14
   }
